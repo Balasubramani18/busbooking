@@ -1,0 +1,60 @@
+.full {
+    background-image: url(../images/bg.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .outer {
+    margin-right: 55%;
+    height: 40%;
+    width: 40%;
+    margin-bottom: 40%;
+  }
+  
+  #head {
+    color: rgb(10, 233, 33);
+    margin-top: 20%;
+  }
+  
+  #title {
+    color: blueviolet;
+    margin-top: 10%;
+  }
+  
+  #t {
+    color: green;
+    margin-top: 20%;
+  }
+  
+  #usrnm,
+  #eml,
+  #pwd,
+  #mob {
+    border: 2px solid blueviolet;
+    height: 35px;
+    width: 60%;
+    background-color: white;
+  }
+  
+  #usrnm:focus,
+  #eml:focus,
+  #pwd:focus,
+  #mob:focus {
+    outline: none;
+    border-color: blue;
+  }
+  
+  #cname,
+  #cemail,
+  #cpassword,
+  #cphone {
+    color: blueviolet;
+  }
+  
+  .fields {
+    margin-top: 100px;
+  }
